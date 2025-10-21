@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 import os
 import sys
-from streamlit_js_eval import streamlit_js_eval
+
 
 
 def get_scent_suggestion(mood):
