@@ -80,7 +80,7 @@ def respond():
             st.write("We are glad that we found the perfect scent to elevate your mood! Have a nice day!💖")
             
 
-       try_again = st.radio("Would you like to try again?", ("Yes", "No"),index=None)
+    try_again = st.radio("Would you like to try again?", ("Yes", "No"),index=None)
        if try_again == "No":
            st.write("🌺 Thank you for using the Aromatherapy Mood Matcher! Remember — small moments of calm can make a big difference. 🌞")
         elif try_again == "Yes":
@@ -89,7 +89,7 @@ def respond():
     
     
 
-    if st.button("Reload Page"):
+    
         
            
             
