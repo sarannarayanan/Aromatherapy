@@ -79,7 +79,7 @@ def main():
         suggestion = get_scent_suggestion(mood)
         
         st.write("🌸 Your Aromatherapy Suggestion 🌸")
-        st.write("blue:[--------------------------------]")
+        st.write("--------------------------------")
         st.write(f"Mood: {mood.capitalize()}")
         st.write(f"Scent: {suggestion}\n\n")
         st.write("--------------------------------")
@@ -107,4 +107,5 @@ def respond():
 if __name__ == "__main__":
     main()
     respond()
+
 
