@@ -106,6 +106,4 @@ def respond():
 
 if __name__ == "__main__":
     main()
-    if os.name == "nt":
-        _ = os.system('cls')
     respond()
